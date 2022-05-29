@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Supermarket';
+  src: url('../fonts//supermarket/supermarket.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  font-family: 'Supermarket' !important;
+  padding-bottom: 40px;
+  height: 100%;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,229,205,1) 100%);
+  font-size: 20px;
+}
+.card {
+  height: 100%;
+}
+.draggable-list {
+  background: #c9c5c0;
+  color: #fff;
+  border: 1px solid;
+  height: 100px;
+}
+.draggable-slot {
+  background: #c9c5c0;
+  color: #fff;
+  border: 1px solid;
+  width: 100%;
+  height: 100% !important;
+}
+.list-item {
+  padding: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  color: Black;
+  height: 100px;
+  margin: 10px;
+}
+
+.pointer{
+  cursor: pointer;
+}

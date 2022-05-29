@@ -1,0 +1,35 @@
+{
+  "name": "simple-task-management",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "dev": "npm run serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bootstrap-vue": "^2.21.1",
+    "flatpickr": "^4.5.1",
+    "js-cookie": "^2.2.1",
+    "moment": "^2.29.1",
+    "register-service-worker": "^1.5.2",
+    "vue": "^2.6.6",
+    "vue-flatpickr-component": "^8.1.1",
+    "vue-fontawesome": "0.0.2",
+    "vue-router": "^3.0.2",
+    "vue-sweetalert2": "^4.1.1",
+    "vue2-transitions": "^0.2.3",
+    "vuedraggable": "^2.24.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-pwa": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.6"
+  }
+}

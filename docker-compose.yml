@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  simple-task-management:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: simple-task-management-ui
+    restart: unless-stopped
+    volumes:
+      - .:/app
+      - ./docker/nginx:/etc/nginx/config.d
+    ports:
+      - "80:80"
+
+networks:
+  default:
+    external:
+      name: default-net
